@@ -43,7 +43,7 @@ def level1(code: str):
     logging.info("level1")
     with open("dist/main.txt","w") as f:
         f.write(b64_of_helloworld)
-    breakpoint()    
+    #breakpoint()    
     os.system("certutil -f -decode dist/main.txt dist/main.exe ")
     os.system("del /S main.txt")
     #src = "helloworld.exe"
