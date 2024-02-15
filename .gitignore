@@ -1,0 +1,5 @@
+build/
+*.json
+*.pyc
+dist/
+dist_temp/
